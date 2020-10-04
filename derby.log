@@ -1,0 +1,117 @@
+----------------------------------------------------------------
+Sun Oct 04 20:22:49 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0174-f4da-1cc2-00000ecc14b8 
+on database directory C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice\mydb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Sunita/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_202-b08
+user.dir=C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Oct 04 20:25:25 CEST 2020:
+Shutting down instance a816c00e-0174-f4da-1cc2-00000ecc14b8 on database directory C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice\mydb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Sun Oct 04 20:25:25 CEST 2020 Thread[Thread-25,5,main] Cleanup action starting
+ERROR XBM0I: Directory mydb cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+Sun Oct 04 20:25:25 CEST 2020 Thread[Thread-25,5,main] Cleanup action starting
+ERROR XBM0I: Directory mydb cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Oct 04 20:25:26 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 6074401f-0174-f4da-1cc2-00000ecc14b8 
+on database directory memory:C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice\21e30b85-ffa5-48d9-a3cb-6f0533b5ea14 with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Sunita/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_202-b08
+user.dir=C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Oct 04 20:31:59 CEST 2020:
+Shutting down instance 6074401f-0174-f4da-1cc2-00000ecc14b8 on database directory memory:C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice\21e30b85-ffa5-48d9-a3cb-6f0533b5ea14 with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Sun Oct 04 20:32:01 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 1a6500e9-0174-f4da-1cc2-00000ecc14b8 
+on database directory memory:C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice\ca907652-ec39-4190-9e36-104992502b9f with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Sunita/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_202-b08
+user.dir=C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Oct 04 20:33:27 CEST 2020:
+Shutting down instance 1a6500e9-0174-f4da-1cc2-00000ecc14b8 on database directory memory:C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice\ca907652-ec39-4190-9e36-104992502b9f with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Sun Oct 04 20:33:28 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance b3e4419f-0174-f4da-1cc2-00000ecc14b8 
+on database directory memory:C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice\ca41eef5-079f-437f-b727-a2f89e273a88 with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Sunita/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_202-b08
+user.dir=C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Oct 04 20:34:43 CEST 2020:
+Shutting down instance b3e4419f-0174-f4da-1cc2-00000ecc14b8 on database directory memory:C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice\ca41eef5-079f-437f-b727-a2f89e273a88 with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Sun Oct 04 20:34:45 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance edbc8255-0174-f4da-1cc2-00000ecc14b8 
+on database directory memory:C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice\81b63d18-6a5d-4eee-97bb-1a33e3cb9a4a with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/Sunita/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_202-b08
+user.dir=C:\Users\Sunita\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\addressservice
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
